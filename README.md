@@ -29,6 +29,9 @@ b.	Read the passengers' information (reservations) from a file named passengers.
 8.	Search for a specific passenger and print all his information (Flight number, Ticket number, Full name, Passport number, Nationality, and Birthdate).
 	يتم فحص جميع الرحلات اذا كان هنالك حجز لمسافر معين بناء على اسم المسافر وعرض بيانات بيانات المسافر على كل رحلة
 9.	Exit
+
+
+
 The information is maintained on an alphabetized linked list of names (passengers linked list). Assume that tickets are reserved for only one flight. Create a linked list of flights (sorted by flight number in ascending order) with each node, including a reference to a linked list of passengers.
 You must read the flights information from a file named flights.txt (flight number (int), airline name (String), source (String), and destination (String), Capacity (int)). And also, read the passengers' information from a file named passengers.txt (Flight number (int), Ticket number (int), Full name (String), Passport number (String), Nationality (String), and Birthdate (Date)). 
 
